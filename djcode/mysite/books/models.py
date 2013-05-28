@@ -12,7 +12,7 @@ class Publisher(models.Model):
 class Author(models.Model):
     first_name =  models.CharField(max_length=30)
     last_name =  models.CharField(max_length=40)
-    email = models.EmailFiedl()
+    email = models.EmailField()
 
 class Book(models.Model):
     title =  models.CharField(max_length=100)
